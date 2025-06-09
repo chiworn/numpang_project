@@ -1,0 +1,30 @@
+.item {
+  font-family: sans-serif;
+  font-size: 18px !important;
+  color: rgb(12, 71, 12);
+}
+.item {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.ptext {
+  font-family: sans-serif;
+  color: rgb(10, 57, 10);
+}
+.ptext {
+  position: relative;
+  margin-top: 0px;
+}
+.ptext::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #1a3e2b; /* Dark Green */
+  /* transition: 0.3s; */
+  margin: 4px auto 0;
+}
+.item:hover .ptext::after {
+  width: 100%;
+}

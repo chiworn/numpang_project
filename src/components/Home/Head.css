@@ -1,0 +1,64 @@
+li {
+  list-style-type: none;
+}
+a {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: rgb(22, 72, 22) !important;
+}
+.nav-menu .nav-item a {
+  position: relative;
+  padding-bottom: 5px; /* Adds some space between text and underline */
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-menu .nav-item a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 90%;
+  height: 2px;
+  background-color: rgb(10, 75, 10); /* Change color as needed */
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-menu .nav-item a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-menu .nav-item a:hover {
+  color: #000; /* Change color on hover if needed */
+}
+/* Hide the dropdown by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 0px solid ghostwhite;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  width: 200px; /* Adjust width as needed */
+  z-index: 1000;
+  border-radius: 0px;
+  margin-top: 3px;
+}
+
+/* Show the dropdown when hovering over the parent */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style the dropdown items */
+.dropdown-menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dropdown-menu li:hover {
+  background: #f5f5f5;
+}

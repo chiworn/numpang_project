@@ -1,0 +1,35 @@
+#tt {
+  background-color: rgb(241, 199, 144);
+}
+.ptext {
+  font-family: sans-serif;
+  color: rgb(10, 57, 10);
+  font-size: 15px;
+}
+.item {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ptext {
+  position: relative;
+  margin-top: 5px;
+}
+
+.ptext::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #1a3e2b; /* Dark Green */
+  /* transition: 0.3s; */
+  margin: 4px auto 0;
+}
+
+/* When you hover over the text or the parent item (image or text), the line will appear */
+.item:hover .ptext::after {
+  width: 100%;
+}
+
+/* Optional: Slight fade effect on hover */

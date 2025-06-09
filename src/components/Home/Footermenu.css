@@ -1,0 +1,44 @@
+.binner-img {
+  width: 42px;
+  height: 55px;
+}
+.navbar {
+  padding-right: 6% !important;
+  padding-left: 6% !important;
+}
+p {
+  color: rgb(16, 66, 16);
+}
+.nav-menu1 {
+  background-color: rgb(255, 210, 155);
+}
+.ptext {
+  font-family: sans-serif;
+  color: rgb(10, 57, 10);
+  font-size: 15px;
+}
+.li-banner {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ptext {
+  position: relative;
+  margin-top: 5px;
+}
+
+.ptext::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: #1a3e2b; /* Dark Green */
+  /* transition: 0.3s; */
+  margin: 4px auto 0;
+}
+
+/* When you hover over the text or the parent item (image or text), the line will appear */
+.li-banner:hover .ptext::after {
+  width: 100%;
+}

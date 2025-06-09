@@ -1,0 +1,13 @@
+td {
+  border: 1px solid rgb(8, 94, 8);
+  border-left: 0px;
+  font-size: 18px;
+}
+.right-table {
+  border-right: 0px;
+}
+.kk {
+  color: rgb(10, 57, 10) !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+}

@@ -1,0 +1,41 @@
+{
+    "sando": [
+      {
+        "id": 1,
+        "name": "Slim Fit Long Sleeves Shirt",
+        "price": 20.59,
+        "category": "Shirt",
+        "type": "Mens",
+        "image": "https://zandokh.com/image/cache/catalog/products/2025-03/1122411646/ZANDO10APR202513504-cr-450x672.jpg",
+        "images": []
+      },
+      {
+        "id": 2,
+        "name": "Unisex Soport Life UV-Windbreaker",
+        "price": 53.59,
+        "category": "Jacket",
+        "type": "Mens",
+        "image": "https://zandokh.com/image/cache/catalog/products/2025-04/5172411008/ZD__3991-cr-450x672.jpg",
+        "images": []
+      },
+      {
+        "id": 3,
+        "name": "Oversized T-Shirts With Embroidery Patched",
+        "price": 14.95,
+        "category": "T-Shirt",
+        "type": "Mens",
+        "image": "https://zandokh.com/image/cache/catalog/products/2025-04/21225021134/DSC06643-cr-450x672.jpg",
+        "images": []
+      },
+      {
+        "id": 4,
+        "name": "Oversized Dyed Sweatshirt",
+        "price": 25.59,
+        "category": "T-Shirt",
+        "type": "Mens",
+        "image": "https://zandokh.com/image/cache/catalog/products/2025-03/2122410907/ZANDO10APR202513642-cr-450x672.jpg",
+        "images": []
+      }
+    ]
+  }
+  
